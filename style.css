@@ -113,7 +113,6 @@ span{
     border: .2rem solid var(--main-color);
     border-radius: 50%;
     font-size: 2rem;
-    text-decoration: none;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: .5s ease;
@@ -135,6 +134,7 @@ span{
     color: var(--second-bg-color);
     letter-spacing: .1rem;
     font-weight: 600;
+    text-decoration: none;
     transition: .5s ease;
 }
 
