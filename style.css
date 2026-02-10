@@ -195,10 +195,16 @@ span{
 .services-container .services-box{
     flex: 1 1 30rem;
     background: var(--second-bg-color);
-    padding: 3rem 2rem 4rem;
+    padding: 1rem 1rem 2rem;
     border-radius: 2rem;
     text-align: center;
     border: .2rem solid var(--bg-color);
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover{
+    border-color: var(--main-color);
+    transform: scale(1.02);
 }
 
 .services-box i{
@@ -216,4 +222,10 @@ span{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 
+}
+
+/* portfilio section design  */
+
+.portfilio{
+    background: var(--second-bg-color);
 }
