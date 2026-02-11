@@ -339,6 +339,8 @@ span{
 
 .contact form textarea{
     resize: none;
+    height: 200px;
+    width: 600px;
 }
 
 /* footer design  */
