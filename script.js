@@ -1,3 +1,13 @@
+/*---------------------toggel icone navbar------------------*/
+
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menuIcon.onclick = () =>{
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+};
+
 /*--------------------scroll  section active linke------------*/
 
 let sections = document.querySelectorAll("section");
@@ -16,4 +26,12 @@ window.onscroll = () => {
             });
         };
     });
+
+    /*-------------------- Navbar ------------*/
+     
+    let header = document.querySelector('header');
+
+    header.classList.toggle('sticky', window.scrollY > 100);
+
+
 };
