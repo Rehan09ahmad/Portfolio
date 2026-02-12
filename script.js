@@ -61,10 +61,11 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'left'});
 
 //-----------------type js---------//
 
-const typed = new typed ('.multipale-text',{
-    Strings: ['Frontend-Developer', 'Web Designer', 'Website Development'],
-    typepeed: 100,
-    backspeed: 100,
-    backdelay: 1000,
+
+const typed = new Typed('.multipale-text', {
+    strings: ['Frontend Developer', 'Web Designer', 'Website Development'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
     loop: true
-})
+});
